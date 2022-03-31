@@ -1,0 +1,60 @@
+.main {
+  padding: 6px 6px;
+  border: 1px solid black;
+}
+.name {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  margin-top: 6px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 130px;
+}
+.left img {
+  width: 100px;
+  border-radius: 50px;
+}
+.left a {
+  margin: auto;
+}
+.left-right {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+.right {
+  border: 1px solid black;
+  margin: 6px 6px;
+  border-radius: 20px;
+  width: 400px;
+  padding: 10px;
+
+}
+label {
+  font-size: 18px;
+  margin-left: 20px;
+}
+input {
+  height: 20px;
+  margin-left: 20px;
+}
+textarea {
+  margin-left: 20px;
+}
+.right p{
+    margin-left: 20px;
+}
+.button{
+   margin-left: 90px;
+   width: 100px;
+   height: 25px;
+   border-radius: 5px;
+}

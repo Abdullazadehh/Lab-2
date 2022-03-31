@@ -1,0 +1,66 @@
+.main {
+    padding: 6px 6px;
+    border: 1px solid black;
+  }
+  .name {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin-top: 6px;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+  }
+  .left img {
+    width: 100px;
+    border-radius: 50px;
+  }
+  .left a {
+    margin: auto;
+  }
+  .left-right {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+  }
+  .right{
+      border: 1px solid black;
+      margin: 6px 6px;
+      border-radius: 20px;
+  }
+  h1{
+      display: flex;
+      justify-content: center;
+  }
+  .img-text{
+      display: flex;
+  }
+  .img-text img{
+      width: 180px;
+  }
+  .fiqurlar{
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+  }
+  .kvadrat{
+      width: 170px;
+      border: 1px solid black;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      padding: 7px;
+  }
+  .oval{
+      width: 100px;
+      border-radius: 100%;
+      border: 1px solid black;
+      padding: 0 30px;
+      
+  }
